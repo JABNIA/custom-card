@@ -1,0 +1,248 @@
+#forms-wrapper{
+    width: 381px;
+    height: 352px;
+    margin-left: 400px;
+    display: inline-block;
+    position: absolute;
+    top: 300px;
+    font-family: Space Grotesk;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.31px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+
+form > .input-wrapper{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input-wrapper > label {
+    color: #21092F;
+}
+
+
+.card-info{
+    width: 381px;
+    height: 45px;
+    border: 1px solid #DFDEE0;
+    border-radius: 7px;
+    padding-left: 15px;
+    font-size: 16px;
+    color: #6348FE;
+}
+
+.card-info:focus {
+    outline: 1px solid #6348FE;
+}
+
+.card-info:not(:focus) {
+    outline: 1px solid #DFDEE0;
+}
+
+.card-info::placeholder{
+    color: #c9c9c9;
+}
+
+.card-info:focus::placeholder{
+    opacity: 0;
+}
+
+
+
+.invalid-format {
+    border: 1px solid red;
+    outline: 1px solid red;
+}
+
+.invalid-format:focus {
+    border: 1px solid red;
+    outline: 1px solid red;
+}
+
+.btn {
+    width: 381px;
+    height: 53px;
+    background-color: #21092F;
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.97px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 7px;
+    margin-top: 30px;
+}
+
+.exp-wrapper{
+    display: flex;
+    gap: 5px;
+}
+
+.month {
+    width: 80px;
+    height: 45px;
+    margin-top: 10px;
+}
+
+.year {
+    width: 80px;
+    height: 45px;
+    margin-top: 5px;
+    margin-left: 10px
+}
+
+.sec-code{
+    width: 191px;
+    height: 45px;
+    margin-top: 10px;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.errors * {
+    margin-top: 10px;
+    width: 200px;
+}
+
+#thanx-wrapper{
+    width: 381px;
+    height: 352px;
+    margin-left: 400px;
+    display: inline-block;
+    position: absolute;
+    top: 300px;
+    font-family: Space Grotesk;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.31px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#thanx-wrapper * {
+    margin-top: 20px;
+}
+
+#thanx-wrapper > h2 {
+    font-family: Space Grotesk;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 35.73px;
+    letter-spacing: 3.422222137451172px;
+    text-align: center;
+
+}
+
+#thanx-wrapper > p {
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.97px;
+    text-align: center;
+    color: #8F8694;
+    ;
+}
+
+@media (max-width: 1440px) and (min-width: 350px){
+    #forms-wrapper{
+        display: block;
+        width: 327px;
+        height: 328x;       
+        position:relative;
+        margin: auto auto auto auto;
+        top: -265px;
+
+       }
+    .card-info{
+        width: 327px;
+        height: 45px;
+        border: 1px solid #DFDEE0;
+        border-radius: 7px;
+        padding-left: 15px;
+        font-size: 16px;
+        color: #6348FE;
+    }
+    .month {
+        width: 72px;
+        height: 45px;
+        margin-top: 10px;
+    }
+    
+    .year {
+        width: 72px;
+        height: 45px;
+        margin-top: 5px;
+        margin-left: 10px
+    }
+    
+    .sec-code{
+        width: 120px;
+        height: 45px;
+        margin-top: 10px;
+    
+    }
+
+    #cvc-wrapper {
+        width: 100px;
+    }
+
+
+    .btn{
+        width: 327px;
+        height: 53px;
+    }
+
+    #thanx-wrapper{
+        display: block;
+        width: 327px;
+        height: 328x;       
+        position:relative;
+        margin: auto auto auto auto;
+        top: -265px;
+    }
+    
+    #thanx-wrapper * {
+        margin-top: 20px;
+    }
+    
+    #thanx-wrapper > h2 {
+        font-family: Space Grotesk;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 35.73px;
+        letter-spacing: 3.422222137451172px;
+        text-align: center;
+    
+    }
+    
+    #thanx-wrapper > p {
+        font-family: Space Grotesk;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22.97px;
+        text-align: center;
+        color: #8F8694;
+        ;
+    }
+    
+    .exp-wrapper{
+        width: 327px;
+        display: flex;
+        gap: 10px;
+    }
+    
+    }

@@ -1,0 +1,21 @@
+
+#desk-wrapper{
+    width: 1440px;
+    height: 900px;
+    margin: auto;
+    margin-top: 3rem;
+    position: relative;  
+    background-color: #FFFFFF;
+}
+
+
+@media (max-width: 1440px) and (min-width: 350px){
+#desk-wrapper{
+        width: 90%;
+        height: 900px;
+        margin: auto;
+        margin-top: 3rem; 
+        position: relative;
+        padding-top: 40px;
+}
+}

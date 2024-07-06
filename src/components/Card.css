@@ -1,0 +1,197 @@
+#card-wrapper {
+    width: 541px;
+    height: 527px;
+    position: absolute;
+    top: 180px;
+    left: 120px;
+    display: inline-block;
+}
+
+#card-front{
+    width: 447px;
+    height: 245px;
+}
+
+#card-back {
+    width: 447px;
+    height: 245px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+
+#white-circle{
+    width: 46.96px;
+    height: 47px;   
+    position: absolute;
+    top: 28px;
+    left: 32px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+
+#empty-circle{
+    width: 21.13px;
+    height: 21.15px;
+    position: absolute;
+    top: 40.93px;
+    left: 94.87px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+#card-front > p {
+    position: absolute;
+    width: 447px;
+    top: 150px;
+    color: #FFFFFF;
+    font-family: Space Grotesk;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 35.73px;
+    letter-spacing: 3.422222137451172px;
+    text-align: left;
+    padding-left: 40px;
+    letter-spacing: 3px;
+}
+
+#card-info {
+    width: 383.14px;
+    height: 18px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 200px;
+    left: 40px;
+}
+
+#card-info > p {
+    font-family: Space Grotesk;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.86px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+
+#ccv {
+    width: 32px;
+    height: 18px;
+    position: absolute;
+    top: 387px;
+    left: 437px;
+    font-family: Space Grotesk;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.86px;
+    letter-spacing: 2px;
+    text-align: right;
+    color: #FFFFFF
+}
+
+
+@media (max-width: 1440px) and (min-width: 350px){
+    #card-wrapper {
+        width: 343px;
+        height: 251px;
+        position: absolute;
+        top: -180px;
+        left: -16px;
+        display: block;
+        margin: auto;
+        position: relative;
+    }
+    
+    #card-front{
+        width: 285px;
+        height: 156px;
+        margin: 60px 0px 0px 10px;
+        background-image: url("../../public/images/bg-card-front.png");
+        background-size: cover;
+        position: relative;
+        z-index: 2;
+    }
+    
+    #card-back {
+        width: 285px;
+        height: 156px;
+        background-image: url("../../public/images/bg-card-back.png");
+        background-size: cover;
+        margin: -250px 0px 0px 79px;
+        position: relative;
+        z-index: 1;
+    }
+    
+    
+    #white-circle{
+        width: 30.19px;
+        height: 30px;   
+        position: absolute;
+        top: 18px;
+        left: 20px;
+        background-color: #FFFFFF;
+        border-radius: 50%;
+    }
+    
+    
+    #empty-circle{
+        width: 13px;
+        height: 13px;
+        position: absolute;
+        top: 28.93px;
+        left: 60.87px;
+        border: 1px solid white;
+        border-radius: 50%;
+    }
+    
+    #card-front > p {
+        position: absolute;
+        width: 277px;
+        top: 85px;
+        color: #FFFFFF;
+        font-family: Space Grotesk;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 2.2px;
+        text-align: left;
+        padding-left: 15px;
+        letter-spacing: 3px;
+    }
+    
+    #card-info {
+        width: 240px;
+        height: 18px;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 120px;
+        left: 20px;
+    }
+    
+    #card-info > p {
+        font-family: Space Grotesk;
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 17.86px;
+        letter-spacing: 2px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    
+    #ccv {
+        width: 32px;
+        height: 18px;
+        position: absolute;
+        top: 67px;
+        left: 216px;
+        font-family: Space Grotesk;
+        font-size: 10px;
+        font-weight: 300;
+    }
+    
+}
