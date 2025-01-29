@@ -109,7 +109,7 @@
         width: 285px;
         height: 156px;
         margin: 60px 0px 0px 10px;
-        background-image: url("../../public/images/bg-card-front.png");
+        background-image: url("./assets/images/bg-card-front.png");
         background-size: cover;
         position: relative;
         z-index: 2;
@@ -118,7 +118,7 @@
     #card-back {
         width: 285px;
         height: 156px;
-        background-image: url("../../public/images/bg-card-back.png");
+        background-image: url("./assets/images/bg-card-back.png");
         background-size: cover;
         margin: -250px 0px 0px 79px;
         position: relative;
