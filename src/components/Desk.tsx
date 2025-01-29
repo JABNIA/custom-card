@@ -1,4 +1,4 @@
-import React, { useEffect, useState }from "react";
+import { useState }from "react";
 import "./Desk.css"
 import Decoration from "./Decoration";
 import Card from "./Card"

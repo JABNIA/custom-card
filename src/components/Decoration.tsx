@@ -1,4 +1,3 @@
-import React from 'react'
 import "./Decoration.css"
 
 export default function Decoration(){
